@@ -208,4 +208,9 @@ config USB_ULPI_BUS
 config USB_ROLE_SWITCH
 	tristate
 
+config USB_OKCAR
+	tristate "USB_OKCAR"	
+	help
+          Say Y here to enable Usb Okcar Api
+
 endif # USB_SUPPORT
